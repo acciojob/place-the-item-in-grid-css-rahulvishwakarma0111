@@ -1,9 +1,8 @@
 
 /* Your CSS Code here. */
 
-.header{
-            display: grid;
-            grid-template-columns: 200px 200px;
-            grid-template-rows: 200px 200px;
-            
-        }
+.holder{
+	display: grid;
+	grid-template-column: repeat(2 200px);
+	grid-template-row: repeat(2 200px);
+}
